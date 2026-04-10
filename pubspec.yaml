@@ -1,0 +1,33 @@
+name: paddle_ocr_flutter
+description: "On-device Chinese/English OCR using PaddlePaddle PP-OCRv5 mobile models with ONNX Runtime. Supports text detection, recognition, and direction classification."
+version: 0.0.1
+homepage: https://github.com/aijiao/paddle_ocr_flutter
+repository: https://github.com/aijiao/paddle_ocr_flutter
+issue_tracker: https://github.com/aijiao/paddle_ocr_flutter/issues
+
+environment:
+  sdk: ^3.9.2
+  flutter: '>=3.3.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.example.paddle_ocr_flutter
+        pluginClass: PaddleOcrFlutterPlugin
+
+  assets:
+    - assets/models/det_v5.onnx
+    - assets/models/rec_v5.onnx
+    - assets/models/cls_v2.onnx
+    - assets/labels/ppocr_keys_v1.txt

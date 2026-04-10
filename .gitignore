@@ -1,0 +1,48 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+/pubspec.lock
+**/doc/api/
+.dart_tool/
+.flutter-plugins-dependencies
+/build/
+/coverage/
+.flutter-plugins
+
+# Native prebuilt dependencies (too large for git, download separately)
+android/OpenCV/
+android/OnnxRuntime/
+
+# Build artifacts
+example/build/
+example/.dart_tool/
+example/pubspec.lock
+example/android/.gradle/
+example/android/build/
+example/android/app/build/
+**/.gradle/
+**/local.properties
+.metadata
