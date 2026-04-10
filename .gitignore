@@ -32,7 +32,7 @@ migrate_working_dir/
 /coverage/
 .flutter-plugins
 
-# Native prebuilt dependencies (too large for git, download separately)
+# Native SDK sources (too large for git, only prebuilt .so in jniLibs is needed)
 android/OpenCV/
 android/OnnxRuntime/
 

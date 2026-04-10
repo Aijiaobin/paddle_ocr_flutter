@@ -1,3 +1,8 @@
+## 0.0.2
+
+* Fix: bundle prebuilt native libraries (OpenCV, ONNX Runtime) in jniLibs
+* Remove CMake build requirement — consumers no longer need OpenCV/ORT SDKs
+
 ## 0.0.1
 
 * Initial release
