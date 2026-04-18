@@ -1,3 +1,8 @@
+## 0.0.3
+
+* Fix: rebuild cls_v2.onnx — paddle2onnx generated invalid Concat node (scalar vs 1D rank mismatch), causing ONNX Runtime to silently skip direction classification
+* Direction classifier now loads and runs correctly on device
+
 ## 0.0.2
 
 * Fix: bundle prebuilt native libraries (OpenCV, ONNX Runtime) in jniLibs

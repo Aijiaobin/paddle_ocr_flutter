@@ -25,7 +25,7 @@ Total: ~21 MB bundled in the plugin.
 
 ```yaml
 dependencies:
-  paddle_ocr_flutter: ^0.0.1
+  paddle_ocr_flutter: ^0.0.3
 ```
 
 ## Usage

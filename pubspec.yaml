@@ -1,6 +1,6 @@
 name: paddle_ocr_flutter
 description: "On-device Chinese/English OCR using PaddlePaddle PP-OCRv5 mobile models with ONNX Runtime. Supports text detection, recognition, and direction classification."
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/Aijiaobin/paddle_ocr_flutter
 repository: https://github.com/Aijiaobin/paddle_ocr_flutter
 issue_tracker: https://github.com/Aijiaobin/paddle_ocr_flutter/issues
