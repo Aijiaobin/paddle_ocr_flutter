@@ -36,6 +36,9 @@ migrate_working_dir/
 android/OpenCV/
 android/OnnxRuntime/
 
+# Backup files
+*.bak
+
 # Build artifacts
 example/build/
 example/.dart_tool/
